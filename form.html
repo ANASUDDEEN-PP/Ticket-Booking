@@ -17,13 +17,13 @@
         <h1>REGISTER TICKET</h1>
         <p>Enter the Detail of Ticket</p>
 
-        <form>
-            <label>Ward</label><br>
-            <input type="number" name="Ward" value="Ward" required>
-            <label>Ticket Number</label><br>
-            <input type="number" name="TicketNumber" value="TicketNumber" required>
-            <label>Full Name</label><br>
-            <input type="text" name="FullName" placeholder="Enter Your FullName" required><br>
+        <form id="submit-form" method="POST" action="https://script.google.com/macros/s/AKfycbxPSDOcRr4yUktUVmGeWLj6n0L9SGnXmkf4nqCuXttU/dev">
+            <label for="wname">Ward</label><br>
+            <input type="number" id="wname" name="Ward" placeholder="Your Ward Number" required>
+            <label for="tname">Ticket Number</label><br>
+            <input type="number" id="tname" name="TicketNumber" placeholder="Your Ticket Number" required>
+            <label for="fname">Full Name</label><br>
+            <input type="text" id="fname" name="FullName" placeholder="Enter Your FullName" ><br>
             <input type="submit" class="submit" value="Submit">
         </form>
     </div>
