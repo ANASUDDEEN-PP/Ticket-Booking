@@ -130,8 +130,7 @@ form .button input:hover{
 .footer{
   margin-top: 25px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   padding: 0;
   background-color: #eee;
   max-width: 700px;
